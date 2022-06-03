@@ -29,10 +29,11 @@ In this lecture, we will focus on the <b>Bourne Again SHell</b>, or <b>“bash�
 </p>
 missing:~$ 
 This is the main textual interface to the shell. It tells you that you are on the machine missing and that your “current working directory”, or where you currently are, is ~ (short for “home”). The $ tells you that you are not the root user (more on that later). At this prompt you can type a command, which will then be interpreted by the shell. The most basic command is to execute a program:
-
+```bash
 missing:~$ date
 Fri 10 Jan 2020 11:49:31 AM EST
 missing:~$ 
+```
 Here, we executed the date program, which (perhaps unsurprisingly) prints the current date and time. The shell then asks us for another command to execute. We can also execute a command with arguments:
 
 missing:~$ echo hello
