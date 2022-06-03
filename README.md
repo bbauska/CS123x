@@ -27,6 +27,7 @@ In this lecture, we will focus on the <b>Bourne Again SHell</b>, or <b>â€œbashâ€
 <h3>Using the shell</h3>
 <p>When you launch your terminal, you will see a prompt that often looks a little like this:
 </p>
+
 ```bash
 missing:~$ 
 ```
