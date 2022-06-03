@@ -11,17 +11,22 @@ From https://cs198.org/lessons/week-00/.  Total 09 weeks.  Excellent on-line cou
    alt="Thank you...dog" />
 </p>
 
-opic 1: The Shell
-What is the shell?
-Computers these days have a variety of interfaces for giving them commands; fanciful graphical user interfaces, voice interfaces, and even AR/VR are everywhere. These are great for 80% of use-cases, but they are often fundamentally restricted in what they allow you to do — you cannot press a button that isn’t there or give a voice command that hasn’t been programmed. To take full advantage of the tools your computer provides, we have to go old-school and drop down to a textual interface: The Shell.
+<h2>Topic 1: The Shell<?</h2>
 
-Nearly all platforms you can get your hand on has a shell in one form or another, and many of them have several shells for you to choose from. While they may vary in the details, at their core they are all roughly the same: they allow you to run programs, give them input, and inspect their output in a semi-structured way.
+<h3>What is the shell?</h3>
+<p>Computers these days have a variety of interfaces for giving them commands; fanciful graphical user interfaces, voice interfaces, and even AR/VR are everywhere. 
+These are great for 80% of use-cases, but they are often fundamentally restricted in what they allow you to do — you cannot press a button that isn’t there or give a voice command that hasn’t been programmed. 
 
-In this lecture, we will focus on the Bourne Again SHell, or “bash” for short. This is one of the most widely used shells, and its syntax is similar to what you will see in many other shells. To open a shell prompt (where you can type commands), you first need a terminal. Your device probably shipped with one installed, or you can install one fairly easily.
+To take full advantage of the tools your computer provides, we have to go old-school and drop down to a textual interface: <b>The Shell</b>.
 
-Using the shell
-When you launch your terminal, you will see a prompt that often looks a little like this:
+Nearly all platforms you can get your hand on has a shell in one form or another, and many of them have several shells for you to choose from. 
+While they may vary in the details, at their core they are all roughly the same: they allow you to run programs, give them input, and inspect their output in a semi-structured way.
 
+In this lecture, we will focus on the <b>Bourne Again SHell</b>, or <b>“bash”</b> for short. This is one of the most widely used shells, and its syntax is similar to what you will see in many other shells. To open a shell prompt (where you can type commands), you first need a terminal. Your device probably shipped with one installed, or you can install one fairly easily.
+</p>
+<h3>Using the shell</h3>
+<p>When you launch your terminal, you will see a prompt that often looks a little like this:
+</p>
 missing:~$ 
 This is the main textual interface to the shell. It tells you that you are on the machine missing and that your “current working directory”, or where you currently are, is ~ (short for “home”). The $ tells you that you are not the root user (more on that later). At this prompt you can type a command, which will then be interpreted by the shell. The most basic command is to execute a program:
 
